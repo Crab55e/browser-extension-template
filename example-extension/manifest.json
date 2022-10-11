@@ -1,0 +1,12 @@
+{
+  "name": "Extension Name",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Extension Description",
+  "content_scripts": [{
+    "matches": ["https://*"],
+    "js": [
+      "scripts/main.js"
+    ]
+  }]
+}
